@@ -16,3 +16,15 @@ body {
   display: block;
   margin: auto;
 }
+
+.curiosidade {
+  background-image: url('imgs/favo-de-mel.png');
+  border: 1px solid #FBA720;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.curiosidade img {
+  float: left;
+  margin-right: 20px;
+}
