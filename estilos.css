@@ -1,3 +1,7 @@
+:root {
+  --yellow: #FBA720;
+}
+
 html, body {
   height: 100%;
 }
@@ -19,7 +23,7 @@ p {
 
 .curiosidade {
   background-image: url('imgs/favo-de-mel.png');
-  border: 1px solid #FBA720;
+  border: 1px solid var(--yellow);
   border-radius: 8px;
   padding: 20px;
 }
@@ -27,4 +31,20 @@ p {
 .curiosidade img {
   float: left;
   margin-right: 20px;
+}
+
+.casta-de-abelha {
+  border-radius: 50%;
+  border: 5px double var(--yellow);
+  shape-outside: circle(50%);
+}
+
+.casta-de-abelha.esquerda {
+  float: left;
+  margin-right: 20px;
+}
+
+.casta-de-abelha.direita {
+  float: right;
+  margin-left: 20px;
 }
